@@ -1,24 +1,24 @@
 # COVID-Spread-Visualizations
 
+## Business Question
+How can the spread of the COVID-19 pandemic in the US be tracked, and which areas require assistance?
+
+## Data Question
+Plotly express is used to build an animated choropleth map of which areas are most heavily afflicted by the virus, accounting for the capacity of hospital beds per area.
+
+## Data Answer
+
+After cleaning the data and merging the data sets by FIPS code, a bubble map, density map, and choropleth map were created (which are displayed here). 
+
 ![alt text](https://github.com/Gramir10/COVID-Spread-Visualizations/blob/master/bubble_map.png)
 </br>shows the distribution of COVID-19 cases
 ![alt text](https://github.com/Gramir10/COVID-Spread-Visualizations/blob/master/CovidSpread.gif)
 </br>shows the spread of COVID-19 cases
 ![alt text](https://github.com/Gramir10/COVID-Spread-Visualizations/blob/master/HospitalBeds.gif)
 </br>shows which areas are getting overwhelmed in hospital bed capacity by COVID-19 cases
-## Business Question
-How can we visualize and better understand the overall toll of the COVID-19 pandemic on US counties or county equivalents?
-
-## Data Question
-Which data and metrics can we use to answer our question? We'll use plotly express to build an animated choropleth map that shows the number of cumulative confirmed COVID-19 cases per 1,000 residents in US counties, but first, we'll review some geospatial data analysis in Python by making a bubble map and a density heat map to showcase the number of cumulative COVID-19 confirmed cases in each US county on today's date.
-We'll use data from the following sources for our analysis:
-
-## Data Answer
-
-The steps for our data analysis are available in this GitBook tutorial. You can use this pre-commented starter notebook to follow along with the tutorial, or copy and paste the code from the codeblocks (dark blue text boxes) in the tutorial to create this and other geospatial data visualizations:
 
 ## Business Answer
-How might our data visualizations help county and state leadership or business owners in the US? What other data might we want to incorporate into an animated choropleth map to better understand the toll of the novel coronavirus in the United States?
+Based on the COVID-19 Cases in the US Counties Per Hospital Beds, we can see some small rural counties do not have the hospital capacity to take care of their sick. Mobilizing resources to move the infected or set up field hospitals would be advised. The intial spread hit the cities first, but quickly spread to the countryside. As the infections clear in the cities, COVID will likely persist in the rural areas for some time. Additional testing resources should be sent to VA, TX, and Wyoming, which are lacking in data. 
 
 # Data Sources
 
