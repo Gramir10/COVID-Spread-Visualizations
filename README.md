@@ -1,11 +1,11 @@
 # COVID-Spread-Visualizations
 
 ![alt text](https://github.com/Gramir10/COVID-Spread-Visualizations/blob/master/bubble_map.png)
-shows the distribution of COVID-19 cases
+</br>shows the distribution of COVID-19 cases
 ![alt text](https://github.com/Gramir10/COVID-Spread-Visualizations/blob/master/CovidSpread.gif)
-shows the spread of COVID-19 cases
+</br>shows the spread of COVID-19 cases
 ![alt text](https://github.com/Gramir10/COVID-Spread-Visualizations/blob/master/HospitalBeds.gif)
-shows which areas are getting overwhelmed in hospital bed capacity by COVID-19 cases
+</br>shows which areas are getting overwhelmed in hospital bed capacity by COVID-19 cases
 ## Business Question
 How can we visualize and better understand the overall toll of the COVID-19 pandemic on US counties or county equivalents?
 
